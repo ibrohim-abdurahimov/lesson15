@@ -1,0 +1,35 @@
+@media (max-width: 990px) {
+    .navbar__collection{
+        display: none;
+    }
+    .navbar__menu{
+        display: block;
+    }
+    .hero__wrapper{
+        flex-direction: column-reverse;
+        padding: 50px 0 80px;
+    }
+    .hero__text,
+    .hero__img{
+        width: 100%;
+    }
+    .hero__img{
+        display: flex;
+        justify-content: center;
+    }
+    .category__wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:650px) {
+    .category__wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero__img img{
+        width: 100%;
+    }
+    
+}
